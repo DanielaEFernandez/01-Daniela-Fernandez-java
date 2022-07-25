@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;800&family=Raleway:wght@100;300;600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: #021635;
+}
+
+p{
+    color: #021635;
+    font-weight: bold;
+}
+
+
+label{
+    font-weight: bold;
+    color: #021635;
+}
+
+.form{
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border:  2px;
+}
+
+input{
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-right: -6px;
+    background-color: #fdfef7;
+    border: #173441 1.8px solid;
+}
+
+fieldset{
+    border: #173441 2px solid;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+button{
+    background-color: #021635;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold; 
+    padding: 10px;
+    margin-left:77%;
+}
+
+i{
+    background-color: #fdfef7;
+    color: #021635;
+    border: #173441 1px solid;
+    padding: 6.8px 8px 9.8px 8px;
+    border-left: white;
+    margin-bottom: 10px;
+}
+
+.tab{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fdfef7;
+    border: #173441 2px solid;
+    margin: 0 auto;
+    width: 500px;
+    color: #021635;
+}
+
+thead{
+    border: #173441 2px solid;
+    font-weight: bold;
+}
+
+tr{
+    border: #173441 2px solid;
+}
+
+td{
+    border: #173441 2px solid;    
+}
